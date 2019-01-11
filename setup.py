@@ -38,7 +38,7 @@ setup(name='excel_db',
         "pytz==2018.9",
         "six==1.12.0",
         "SQLAlchemy==1.2.15",
-        "xlrd==1.2.0"
+        "xlrd==1.2.0",
         "openpyxl"
     ]
 )
