@@ -30,13 +30,9 @@ setup(name='excel_db',
     author_email = 'fanmolh@163.com',
     license = 'GPL',
     install_requires = [
-        "excel-db==1.0",
         "numpy==1.15.4",
         "pandas==0.23.4",
         "PyMySQL==0.9.3",
-        "python-dateutil==2.7.5",
-        "pytz==2018.9",
-        "six==1.12.0",
         "SQLAlchemy==1.2.15",
         "xlrd==1.2.0",
         "openpyxl"
