@@ -1,5 +1,7 @@
 # excel_db
 excel文件导入数据库中
+========================
+```python
 def run(table_name,url,excel_file,config)
 """
 :param table_name:
@@ -22,7 +24,10 @@ def run(table_name,url,excel_file,config)
                 值为当前字段下需要填充的值
 
     """
+```
 实例：
+-------
+```python
     from excel_db.run import run
     config = {
             'HMC':
@@ -41,6 +46,7 @@ def run(table_name,url,excel_file,config)
                 }
             }
     run("t_ip_info","mysql+pymysql://root:root@127.0.0.1:3306/dbname","tmp.xlsx",config)
+```
 
 
 
