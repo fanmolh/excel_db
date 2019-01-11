@@ -27,10 +27,24 @@ from . import sql
 def run(table_name,url,excel_file,config):
     """
     :param table_name:
+        需要导入的表名
     :param url:
+        数据库url 例如："mysql+pymysql://root:root@127.0.0.1:3306/dbname"
     :param excel_file:
+        excel文件的全路径
     :param config:
-    :return:
+        键为sheet name
+        值为当前sheet的导入规则
+            键：
+                mt_id .....
+                pkcs 数据库中表的某字段名（一个或多个）作为判断唯一性的标准，使其导入不存在的数据。
+                col_map:
+                    键为excel列名
+                    值为数据库字段名
+                add_rs:填充列
+                    键为表字段名
+                    值为当前字段下需要填充的值
+
     """
     conn = create_engine(url)
     data = read_excel(excel_file,sheet_name=None)
