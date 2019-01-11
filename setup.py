@@ -28,7 +28,7 @@ setup(name='excel_db',
     include_package_data=True,
     author = 'Fanmo',
     author_email = 'fanmolh@163.com',
-    license = 'GPL'
+    license = 'GPL',
     install_requires = [
         "excel-db==1.0",
         "numpy==1.15.4",
