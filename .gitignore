@@ -1,3 +1,6 @@
 *.pyc
 env/
 .idea/
+build/
+dist/
+excel_db.*
