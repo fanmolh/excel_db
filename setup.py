@@ -31,7 +31,7 @@ setup(name='excel_db',
     license = 'GPL',
     url = 'https://github.com/fanmolh/excel_db.git',
     install_requires = [
-        "numpy==1.15.4",
+        "numpy==1.22.0",
         "pandas==0.23.4",
         "PyMySQL==0.9.3",
         "SQLAlchemy==1.2.15",
