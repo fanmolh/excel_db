@@ -34,7 +34,7 @@ setup(name='excel_db',
         "numpy==1.15.4",
         "pandas==0.23.4",
         "PyMySQL==0.9.3",
-        "SQLAlchemy==1.2.15",
+        "SQLAlchemy==1.3.0",
         "xlrd==1.2.0",
         "openpyxl"
     ]
